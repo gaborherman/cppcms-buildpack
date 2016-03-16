@@ -78,3 +78,15 @@ indicates it may not actually be easy or desirable.
 ### should config.js get handled in the default start command?
 
 currently we're doing it in `.profile.d/cppcms.sh`
+
+
+## License
+
+Copyright 2016, Mike Dalessio
+
+The buildpack is released under the Apache 2.0 license, see `LICENSE` for for the full text.
+
+Compiled [CppCMS bits are distributed under the LGPLv3](http://commercial.cppcms.com/faq).
+
+I am not a lawyer, and so have no idea if the previous two statements
+are compatible with each other. Let me know if you have thoughts.
