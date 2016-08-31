@@ -3,5 +3,5 @@
 
 cat << EOF
 default_process_types:
-  web: ./hello -c cppcms.js
+  web: bash hello.sh
 EOF
