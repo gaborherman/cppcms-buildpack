@@ -8,6 +8,7 @@ function indent() {
 
 echo "-----> injecting environment into config.js ..."
 cp cppcms.js cppcms.js.template
+ls
 cat cppcms.js.template | \
   jq ".service.port=${PORT} | .service.ip=\"0.0.0.0\" | .service.api=\"http\"" | \
   tee cppcms.js | indent
