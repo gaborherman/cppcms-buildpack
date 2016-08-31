@@ -3,5 +3,5 @@
 
 cat << EOF
 default_process_types:
-  web: make run
+  web: ./hello -c cppcms.js
 EOF
