@@ -47,4 +47,6 @@ make | indent
 
 echo "-----> setting up .profile.d ..."
 mkdir -p ${BUILD_DIR}/.profile.d
+echo "copying cppcms.sh"
 cp ${BUILDPACKS_DIR}/bin/cppcms.sh ${BUILD_DIR}/.profile.d
+echo "copied cppcms.sh"
