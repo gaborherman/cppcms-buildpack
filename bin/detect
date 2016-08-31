@@ -1,5 +1,5 @@
 #! /usr/bin/env bash
-
+echo "running detect script"
 if [[ -f "$1/cppcms.js" ]] ; then
   SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
   echo "cppcms $(cat $SCRIPT_DIR/../VERSION)"
