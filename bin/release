@@ -3,5 +3,5 @@
 
 cat << EOF
 default_process_types:
-  web: sh hello.sh
+   web: make run
 EOF
