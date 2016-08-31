@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # bin/release <build-dir>
 
-echo "starting application"
 cat << EOF
 default_process_types:
   web: make run
